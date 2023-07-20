@@ -38,11 +38,11 @@
                     <form class="flex flex-col" action="POST">
                         <div class="auth__content-form-email">
                             <label for="email" class="block mb-[5px]">E-mail Address</label>
-                            <input type="text" name="email" id="input-email" class="w-full border border-[#E2E3E6] py-[10px] px-4 rounded-[9px]">
+                            <input type="text" name="email" id="input-email" class="w-full border border-[#E2E3E6] py-[10px] px-4 rounded-[9px] outline-none focus:border-[#181616] transition-colors ease-in duration-300">
                         </div>
-                        <div class="auth__content-form-email mt-[10px]">
+                        <div class="auth__content-form-password mt-[10px]">
                             <label for="email" class="block mb-[5px]">Password</label>
-                            <input type="text" name="email" id="input-email" class="w-full border border-[#E2E3E6] py-[10px] px-4 rounded-[9px]">
+                            <input type="password" name="password" id="input-password" class="w-full border border-[#E2E3E6] py-[10px] px-4 rounded-[9px] outline-none focus:border-[#181616] transition-colors ease-in duration-300">
                         </div>
                         <a href="/" class="my-[15px] text-center">Forgot password?</a>
                         <button class="py-[12px] bg-[#0E1218] text-white rounded-[9px]">Authorize</button>
